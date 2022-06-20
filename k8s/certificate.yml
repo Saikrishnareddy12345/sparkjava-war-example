@@ -2,7 +2,7 @@ apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
   name: static2.saikrish.xyz
-  namespace: static2
+  namespace: sparkjava
 spec:
   secretName: static2.saikrish.xyz-tls
   issuerRef:
