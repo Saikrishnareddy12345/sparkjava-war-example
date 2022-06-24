@@ -4,8 +4,12 @@ metadata:
   name: sparkjava-ingress
   namespace: sparkjava
 spec:
+  tls:
+  - hosts: 
+    - sparkjava.saikrish.xyz
+    secretName: sparkjava.saikrish.xyz-tls
   rules:
-  - host: sparkjava1.hanumanthreddy.xyz
+  - host: sparkjava.saikrishy.xyz
     http:
       paths:
       - path: /sparkjava-hello-world-1.0
