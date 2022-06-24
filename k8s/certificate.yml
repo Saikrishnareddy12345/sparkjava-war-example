@@ -1,13 +1,13 @@
 apiVersion: cert-manager.io/v1
 kind: Certificate
 metadata:
-  name: static2.saikrish.xyz
+  name: sparkjava.saikrish.xyz
   namespace: sparkjava
 spec:
-  secretName: static2.saikrish.xyz-tls
+  secretName: sparkjava.saikrish.xyz-tls
   issuerRef:
-    name: static2-issuer
+    name: sparkjava-issuer
     kind: ClusterIssuer
-  commonName: static2.saikrish.xyz
+  commonName: sparkjava.saikrish.xyz
   dnsNames:
-  - static2.saikrish.xyz
+  - sparkjava.saikrish.xyz
